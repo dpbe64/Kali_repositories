@@ -1,7 +1,7 @@
 #!/bin/bash
 
-//you need to execute this program with root user
-//created by dpbe64
+#you need to execute this program with root user
+#created by dpbe64
 
 	echo "[*] Adding repositories...\n"
 	echo 'deb http://http.kali.org/kali kali-rolling main non-free contrib' > /etc/apt/sources.list
