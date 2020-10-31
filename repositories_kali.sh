@@ -10,4 +10,5 @@
 	sudo apt install wget -y
 	echo "[*] wget installed succesfully"
 	wget http://archive.kali.org/archive-key.asc | apt-key add archive-key.asc
+	rm archive-key.asc
 	echo "[*] Now yo have a repositories of kali linux enjoy!"
